@@ -8,14 +8,14 @@ public class Inheritance
     golden.display();
   }
 }
-class Animal
+class Animal                             //super class
 {
   public void show()
   {
     System.out.println("I can eat");
   }
 }
-class Dog extends Animal
+class Dog extends Animal                //super class
 {
   public void display()
   {
